@@ -16,6 +16,10 @@
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <style>
+        .spans {
+            text-align: center;
+        }
+
         /* Initial styles for transparent header */
         #header.transparent {
             background-color: transparent;
@@ -139,20 +143,20 @@
                     <li><a href="#home" class="text-white hover:text-gray-300">Home</a></li>
                     <li><a href="#about" class="text-white hover:text-gray-300">About</a></li>
 
+                    <li><a href="#skills" class="text-white hover:text-gray-300">Skills</a></li>
 
                 </ul>
             </nav>
         </div>
     </header>
-
     <!-- hero section  -->
     <section id="home" class="py-32 px-4 bg-gradient-to-r from-blue-700 to-red-500">
         <div class="hero-box container mx-auto flex items-center justify-between h-900">
             <div class="w-3/4 infos">
                 <h2 class="text-5xl font-bold text-white mb-4">Abdullah Al Mahdi</h2>
-                <h3 class="text-2xl text-white mb-4">Business-man</h3>
-                <p class="text-white">I'm Abdullah Al Mahdi, studying at North South University and Tamirul Millat Kamil
-                    Madrasah while managing my own busines.</p>
+                <h3 class="text-2xl text-white mb-4">Entrepreneurship, Driving</h3>
+                <p class="text-white">I'm Abdullah Al Mahdi is a student and entrepreneur passionate about sports and
+                    exploring, aiming to create jobs and help those in need.</p>
             </div>
             <div class="dp w-1/2 flex flex-col items-center justify-center">
                 <!-- Image -->
@@ -178,12 +182,48 @@
                 src="https://i.ibb.co/645GTgw/409207359-1055123442462893-370818020232202213-n.jpg"
                 alt=" Profile Picture">
             <div class="flex-grow prose text-gray-700">
-                <p>I'm Abdullah Al Mahdi, a student at North South University and Tamirul Millat Kamil Madrasah. Gazipur
-                    is my hometown. Alongside studies, I run my own business. Born on 6/3/2002, I'm driven by learning,
-                    faith, and entrepreneurship, striving to make every day count towards a brighter future.</p>
+                <p> I'm Abdullah Al Mahdi. I went to Sahara Khatun Ideal School and Kamarjuri Government Primary School
+                    before completing my Dakhil and Alim from Ta'mirul Millat Kamil Madrasah Tongi campus. Currently,
+                    I'm studying Fazil at the same madrasah, Honors at Tongi Government College, and also at a private
+                    university. I've tried various businesses and currently run some. I'm passionate about sports,
+                    exploring, cars, and bikes. My dream is to create jobs and help people in need.</p>
                 <a href="https://www.facebook.com/profile.php?id=100038957418885"
                     class="inline-flex items-center px-4 py-2 mt-4 text-white bg-blue-500 rounded-md hover:bg-blue-700 focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">Let's
                     Connect with me</a>
+            </div>
+        </div>
+    </section>
+    <!-- Skill Section -->
+    <section id="skills" class="py-20 px-4 bg-gradient-to-b from-blue-400 via-purple-500 to-pink-500">
+        <div class="container mx-auto">
+            <!-- Title -->
+            <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">Skills</h2>
+
+            <!-- Skill Boxes -->
+            <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Skill Box - Entrepreneurship -->
+                <div class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center justify-center">
+                    <i class="fas fa-lightbulb text-4xl text-yellow-500 mb-2"></i>
+                    <span class="spans text-gray-800 font-semibold">Entrepreneurship</span>
+                </div>
+
+                <!-- Skill Box - Management -->
+                <div class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center justify-center">
+                    <i class="fas fa-tasks text-4xl text-green-500 mb-2"></i>
+                    <span class="spans text-gray-800 font-semibold">Management</span>
+                </div>
+
+                <!-- Skill Box - Computer Skills -->
+                <div class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center justify-center">
+                    <i class="fas fa-laptop-code text-4xl text-indigo-500 mb-2"></i>
+                    <span class="spans text-gray-800 font-semibold">Computer Skills</span>
+                </div>
+
+                <!-- Skill Box - Driving -->
+                <div class="bg-white p-4 rounded-lg shadow-md flex flex-col items-center justify-center">
+                    <i class="fas fa-car text-4xl text-gray-500 mb-2"></i>
+                    <span class="spans text-gray-800 font-semibold">Driving</span>
+                </div>
             </div>
         </div>
     </section>
@@ -191,7 +231,7 @@
     <!-- Footer -->
     <footer class="bg-gray-800 text-white text-center py-4">
         <div class="container mx-auto">
-            &copy; 2024 Sakib Al Hasan. All rights reserved.
+            &copy; 2024 Abdullah Al Mahdi. All rights reserved.
         </div>
     </footer>
 </body>
